@@ -1,12 +1,17 @@
 import React from "react";
 import "assets/scss/style.scss";
 import Button from "elements/Button";
+import LandingPage from "pages/LandingPage";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="App">
-      hai dunia!
-      <Button isPrimary isLarge >ini button</Button>
+      <Router>
+        <Route path="/" component={LandingPage}></Route>
+      </Router>
+  
     </div>
   );
 }
