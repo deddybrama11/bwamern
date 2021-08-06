@@ -1,6 +1,5 @@
 import React from "react";
 import "assets/scss/style.scss";
-import Button from "elements/Button";
 import LandingPage from "pages/LandingPage";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
